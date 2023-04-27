@@ -5,20 +5,20 @@ public class Exercicio2 {
 	public static void main(String[] args) {
 		
 		int num1 = 2;
-		float num2 = 100520;
+		float num2 = 100520f;
 		double num3 = 5.5;
 		
 		System.out.println(num1);
 		System.out.println(num2);
 		System.out.println(num3);
 		
-		String str = Double.toString(num3);
-		String strr = Float.toString(num2);
-		String sttr = Integer.toString(num1);
+		String num1str = Double.toString(num3);
+		String num2strr = Float.toString(num2);
+		String num3sttr = Integer.toString(num1);
 		
-		System.out.println(str);
-		System.out.println(strr);
-		System.out.println(sttr);
+		System.out.println(num1str);
+		System.out.println(num2strr);
+		System.out.println(num3sttr);
 
 	}
 

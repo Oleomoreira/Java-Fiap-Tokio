@@ -14,10 +14,12 @@ public class Exercicio6 {
 		int qntPecas =  Integer.parseInt(sc.nextLine());
 		
 		System.out.println("Digite o valor da peca unitario: ");
-		double valorUni = sc.nextDouble();
+		double valorUni = Double.parseDouble(sc.nextLine());
 		
 		double valorFinal = qntPecas * valorUni;
 		System.out.println("O valor de " + qntPecas + " " + nomePeca + " eh " + valorFinal);
+		
+		// peça 2
 		
 		System.out.println("Digite o nome da segunda peca: ");
 		String peca2 = sc.nextLine();
@@ -26,7 +28,7 @@ public class Exercicio6 {
 		int qntPecas2 =  Integer.parseInt(sc.nextLine());
 		
 		System.out.println("Digite o valor da peca unitario: ");
-		double valorUni2 = sc.nextDouble();
+		double valorUni2 = Double.parseDouble(sc.nextLine());
 		
 		double valorFinal2 = qntPecas2 * valorUni2;
 		System.out.println("O valor da segunda peca " + qntPecas + " " + peca2 + " eh " + valorFinal);

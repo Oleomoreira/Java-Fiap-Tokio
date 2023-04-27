@@ -16,7 +16,7 @@ public class Exercicio5 {
 			int p1 = 4;
 			int p2 = 6;
 			
-			double MediaPonderada = ((n1 * p1) + (n2 * p2)) / 4;
+			double MediaPonderada = (p1*0.4) + (p2*0.6);
 			
 			System.out.println("a media ponderada do aluno eh: " + MediaPonderada);
 			
