@@ -13,5 +13,7 @@ C. (d > a) e (c >= b) = False
 D. (a <= b) ou (c <= d) = True
 E. ((b > c) ou (c < a)) e (d <= b) = False 
 	 */
+	
+	
 
 }
